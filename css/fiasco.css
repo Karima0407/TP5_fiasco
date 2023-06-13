@@ -1,3 +1,96 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box; /*pour garder la meme taille*/
+}
+img {
+  width: 100%;
+  border: 0;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -5,9 +98,11 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 h2 {
   font-family: "Dancing Script", cursive;
+  color: darkgoldenrod;
 }
 header {
   background-image: url(../img/eggs.jpg);
@@ -17,11 +112,11 @@ header {
 .flexhead {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 li {
   list-style-type: none;
   padding: 20px;
-  padding-top: 0px;
 }
 a {
   text-decoration: none;
@@ -29,7 +124,6 @@ a {
 }
 ul {
   display: flex;
-  justify-content: right;
 }
 p {
   color: white;
@@ -38,12 +132,80 @@ p {
   text-align: center;
 }
 .welcome h2 {
-  color: yellow;
+  color: darkgoldenrod;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
+  padding-bottom: 50px;
 }
 .welcome h1 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
+  padding-bottom: 50px;
+}
+.premierflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+.discover h2 {
+  color: darkgoldenrod;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.discover {
+  margin-left: 55px;
+  margin-top: 15px;
+}
+.see {
+  color: darkgoldenrod;
+  padding-top: 20px;
+}
+.img_burger {
+  border: 1px solid darkgoldenrod;
+  padding: 30px 0 0 30px;
+}
+.img_burger img {
+  display: block;
+}
+.deuxième_flex {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.discover h3 {
+  padding-bottom: 20px;
+}
+.tasteful h2 {
+  color: darkgoldenrod;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.tasteful h3 {
+  padding-bottom: 20px;
+}
+.img_crusted {
+  border: 1px solid darkgoldenrod;
+  padding: 30px 30px 0 0;
+}
+.tasteful {
+  margin-left: 45px;
+  margin-top: 40px;
+}
+.menu {
+  text-align: center;
+}
+.menu h2 {
+  padding-bottom: 20px;
+}
+.menu h3 {
+  padding-bottom: 10px;
+}
+.menu ul {
+  display: flex;
+  padding: 30px;
+  margin-top: 30px;
+  justify-content: center;
 }
