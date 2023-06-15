@@ -239,7 +239,35 @@ p {
   margin-top: 50px;
 }
 .chief {
-  /*   
-  width: 400px;
-  height: 500px; */
+  width: 425px;
+  height: 350px;
+}
+.sectcrusted3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.reservation {
+  background-image: url(../img/reservation.jpg);
+  text-align: center;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.div1,
+.div2,
+.div3 {
+  border: 1px solid white;
+  padding: 15px;
+  margin-top: 20px;
+}
+.lesdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.reservation > div {
+  position: absolute;
+  top: 70px;
 }
