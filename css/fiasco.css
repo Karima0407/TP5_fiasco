@@ -92,7 +92,7 @@ img {
   border: 0;
 }
 .container {
-  width: 70%;
+  width: 1440px;
   margin: auto;
   background-color: black;
 }
@@ -113,6 +113,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 40px 10px 20px 10px;
+}
+.bordure{
+  border:1px solid darkgoldenrod;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
 }
 li {
   list-style-type: none;
@@ -130,6 +137,7 @@ p {
 }
 .welcome {
   text-align: center;
+  margin: auto;
 }
 .welcome h2 {
   color: darkgoldenrod;
@@ -251,10 +259,11 @@ p {
 .reservation {
   background-image: url(../img/reservation.jpg);
   text-align: center;
-  height: 400px;
+  height: 500px;
   width: 90%;
   margin: auto;
   position: relative;
+  align-items: center;
 }
 .div1,
 .div2,
@@ -262,12 +271,90 @@ p {
   border: 1px solid white;
   padding: 15px;
   margin-top: 20px;
+  margin: 20px;
 }
 .lesdiv {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 .reservation > div {
   position: absolute;
   top: 70px;
+}
+.makereser {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-top: 30px;
+}
+button {
+  color: white;
+  text-align: center;
+  background-color: darkgoldenrod;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.reservation h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.recipes {
+  text-align: right;
+  margin: 10px 40px 20px 40px;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 60px;
+}
+.chopped {
+  display: flex;
+  padding: 20px 0 20px 20px;
+  /* justify-content: right; */
+  align-items: center;
+}
+.chopped p {
+  margin-left: 15px;
+}
+iframe {
+  width: 100%;
+}
+footer {
+  /* background-color: gray; */
+  background-color: gray;
+  /* background-image: url(../img/splash.png); */
+  background-image: url(../img/splash.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 100%;
+  height: 425px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  margin-top: -4px;
+}
+footer h2 {
+  color: darkgoldenrod;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  margin: 40px 40px 20px 10px;
+}
+/* .open {
+  background-position: top;
+
+  /* /* background-size: contain; */
+@media  (max-width:1400px) {
+  .container{
+    background-color: red;
+    width: 100%;
+  
+  }
+  .makereser{
+    width: 100%;
+  }
 }
